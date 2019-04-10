@@ -1,0 +1,16 @@
+<view class="container">
+      <view class="item">
+            <view class='content'>
+                  <text class='text-grey' bindtap="toPath" data-index="{{0}}">Root ></text>
+                  <text class="text-grey" bindtap="toPath" data-index="{{index+1}}" wx:key="{{index}}" wx:for="{{currentPath}}">
+                        {{item.text}}
+                  </text>
+            </view>
+      </view>
+      <view wx:for="{{outValue}}" wx:key="{{index}}" class="item" bindtap="tapItem" data-text="{{item[contentKey]}}" data-index="{{index}}">
+            <view class='content'>
+                  <my-icon name="{{item[contentType]}}" class="icon" />
+                  <text class="text-grey" space="ensp">{{item[contentKey]}}</text>
+            </view>
+      </view>
+</view>

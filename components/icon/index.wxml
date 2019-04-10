@@ -1,0 +1,1 @@
+<view class="custom-class iconfont my-icon-{{ name }}" style="{{ color ? 'color: ' + color : '' }}"></view>

@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/source/tree"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "fileTree",
+    "navigationBarTextStyle": "white"
+  }
+}

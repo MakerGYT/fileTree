@@ -1,0 +1,40 @@
+.container {
+  display:block;
+  overflow:hidden;
+  box-sizing:border-box;
+
+}
+.container>.item {
+  transition:all 0.6s ease-in-out 0s;
+  transform:translateX(0rpx);
+
+  position:relative;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  min-height:100rpx;
+  background:#fff;
+  padding:0 30rpx;
+}
+.container>.item .content {
+  line-height:0em;
+  flex:1;
+  font-size:30rpx;  
+}
+.icon{
+  /* margin-right:10rpx; */
+  display:inline-block;
+  width:1.6em;
+  text-align:center;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing:border-box;
+
+}
+.content .text-grey {
+  padding: 0 5px;
+  color:#8799a3;
+}
